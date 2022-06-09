@@ -1,0 +1,12 @@
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+@media only screen and (max-width: 576px) {
+  .header-container {
+    display: block;
+  }
+  .empty-container {
+    display: none;
+  }
+}
