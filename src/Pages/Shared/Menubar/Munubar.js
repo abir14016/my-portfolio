@@ -2,7 +2,7 @@ import React from 'react';
 
 const Munubar = () => {
     return (
-        <div class="navbar bg-primary text-white">
+        <div class="navbar bg-secondary sm:text-black md:bg-primary md:text-white">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
