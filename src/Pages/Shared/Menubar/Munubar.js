@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import resume from '../../../images/resume/Abir_Hasan_Resume-v3.pdf';
 
 const Munubar = () => {
     return (
@@ -42,7 +44,7 @@ const Munubar = () => {
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn">Get started</a>
+                <Link className='btn btn-secondary text-extrabold text-black' to={resume} target="_blank" download={resume}>Download Resume</Link>
             </div>
         </div>
     );

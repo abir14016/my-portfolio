@@ -8,7 +8,7 @@ import { faTwitter, faFontAwesome, faFacebook, faGithub, faLinkedin, faInstagram
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Banner = () => {
-    library.add(fas, faTwitter, faFontAwesome, faFacebook, faGithub, faLinkedin, faInstagram)
+    library.add(fas, faTwitter, faFontAwesome, faFacebook, faGithub, faLinkedin, faInstagram);
     return (
         <div className='banner-container'>
             <div className='bg-secondary lg:h-screen md:h-screen'>
@@ -50,7 +50,9 @@ const Banner = () => {
                         <p className=' text-slate-300'>There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared.</p>
                     </div>
                     <div className='flex justify-center'>
-                        <button className="btn rounded-full btn-outline btn-secondary mx-2">Download Resume</button>
+                        <a href="https://drive.google.com/file/d/1SghcQTh1UmUgB6_9hZstM2Vl2dJnkiQh/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <button className="btn rounded-full btn-outline btn-secondary mx-2">see Resume</button>
+                        </a>
                         <button className="btn btn-active btn-secondary rounded-full text-black hover:bg-black hover:text-white mx-2">Contact</button>
                     </div>
                 </div>
