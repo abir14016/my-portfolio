@@ -18,7 +18,7 @@ const Contact = () => {
             });
     }
     return (
-        <div>
+        <div id="contact">
             <h1 className='text-secondary text-5xl font-bold text-center'>CONTACT</h1>
             <div class="hero min-h-screen">
                 <div class="hero-content flex-col lg:flex-row-reverse">

@@ -29,7 +29,7 @@ const Skills = () => {
         cssEase: "linear"
     };
     return (
-        <div>
+        <div id='skills'>
             <h1 class="text-5xl font-bold text-secondary pb-28">SKILLS</h1>
             <Slider {...settings}>
                 <div>

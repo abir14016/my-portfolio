@@ -3,7 +3,7 @@ import abir from '../../../images/me/abir.png'
 
 const Intro = () => {
     return (
-        <div class="hero min-h-screen text-white">
+        <div id='aboutme' class="hero min-h-screen text-white">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div className='bg-secondary rounded-lg flex justify-center py-10'>
                     <div className='bg-primary w-4/5 h-4/5 rounded-lg'>
