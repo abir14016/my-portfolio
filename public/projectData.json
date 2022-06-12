@@ -21,7 +21,7 @@
     "links": {
       "server": "https://github.com/abir14016/hardware-zone-server-public",
       "client": "https://github.com/abir14016/hardware-zone-client-public",
-      "live": "https://github.com/abir14016/hardware-zone-server-public"
+      "live": "https://resonant-frangollo-feebf1.netlify.app/"
     },
     "images": {
       "smHome": "https://i.ibb.co/fqdMYdm/sm-home.png",
@@ -63,7 +63,7 @@
       "sm1": "https://i.ibb.co/Yf9xhGT/sm-login.png",
       "sm2": "https://i.ibb.co/zs8Sd0G/sm-update.png",
       "sm3": "https://i.ibb.co/2dczs46/sm-manage-inventories.png",
-      "lgHome": "https://i.ibb.co/NLwnYZ3/lg-home.png",
+      "lgHome": "https://i.ibb.co/KX2pbbN/lg-home.png",
       "lg1": "https://i.ibb.co/r7ZXyxt/lg-login.png",
       "lg2": "https://i.ibb.co/nC52fm1/lg-update.png",
       "lg3": "https://i.ibb.co/mhjDXTw/lg-manage-inventories.png"
@@ -98,7 +98,7 @@
       "sm1": "https://i.ibb.co/xg4gyLr/sm-checkout.png",
       "sm2": "https://i.ibb.co/hFJ9JYT/sm-about-me.png",
       "sm3": "https://i.ibb.co/DtGksPK/sm-reviews.png",
-      "lgHome": "https://i.ibb.co/NLwnYZ3/lg-home.png",
+      "lgHome": "https://i.ibb.co/1bVJyD3/lg-home.png",
       "lg1": "https://i.ibb.co/T8h3Nq3/lg-checkout.png",
       "lg2": "https://i.ibb.co/wNsfPfL/lg-about-me.png",
       "lg3": "https://i.ibb.co/rHpQbns/lg-reviews.png"

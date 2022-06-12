@@ -3,6 +3,7 @@ import React from 'react';
 import gymHero from '../../../images/projects/gym-hero.png';
 import { faCode, faCodeFork, faPlay } from '@fortawesome/free-solid-svg-icons';
 import UseProjects from '../../../Pages/Hooks/UseProjects';
+import Project from '../Project/Project';
 
 const Projects = () => {
     const [projects, setProjects] = UseProjects()
@@ -10,7 +11,13 @@ const Projects = () => {
         <div className='py-32'>
             <h1 className='text-5xl text-secondary font-bold pb-28'>PROJECTS: {projects.length}</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto gap-5'>
-                <div className='flex justify-center'>
+                {
+                    projects.map(project => <Project
+                        key={project.id}
+                        project={project}
+                    ></Project>)
+                }
+                {/* <div className='flex justify-center'>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure><img src={gymHero} alt="Shoes" /></figure>
                         <div class="card-body bg-secondary">
@@ -38,8 +45,8 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className='flex justify-center'>
+                </div> */}
+                {/* <div className='flex justify-center'>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure><img src={gymHero} alt="Shoes" /></figure>
                         <div class="card-body bg-secondary">
@@ -67,8 +74,8 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className='flex justify-center'>
+                </div> */}
+                {/* <div className='flex justify-center'>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure><img src={gymHero} alt="Shoes" /></figure>
                         <div class="card-body bg-secondary">
@@ -96,7 +103,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
