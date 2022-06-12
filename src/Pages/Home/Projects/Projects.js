@@ -2,11 +2,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import gymHero from '../../../images/projects/gym-hero.png';
 import { faCode, faCodeFork, faPlay } from '@fortawesome/free-solid-svg-icons';
+import UseProjects from '../../../Pages/Hooks/UseProjects';
 
 const Projects = () => {
+    const [projects, setProjects] = UseProjects()
     return (
         <div className='py-32'>
-            <h1 className='text-5xl text-secondary font-bold pb-28'>PROJECTS</h1>
+            <h1 className='text-5xl text-secondary font-bold pb-28'>PROJECTS: {projects.length}</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto gap-5'>
                 <div className='flex justify-center'>
                     <div class="card w-96 bg-base-100 shadow-xl">

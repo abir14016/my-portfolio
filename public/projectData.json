@@ -1,0 +1,107 @@
+[
+  {
+    "id": "62a5cbca7b2cc3869c36d489",
+    "index": 0,
+    "name": "Hardware Zone",
+    "subName": "A tools management website",
+    "description": {
+      "d1": "It's a complete website with backend integration(node.js) for a hardware/tools manufacture company.",
+      "d2": "There is a different dashboard for user and admin.",
+      "d3": "Payment method implemented with stripe",
+      "d4": "2 ways of login (authentication) system",
+      "d5": "An admin can make another user as admin"
+    },
+    "technologies": {
+      "t1": "HTML, CSS, Bootstrap.",
+      "t2": "React as Javascript Libray.",
+      "t3": "Firebase Authentication",
+      "t4": "2 ways of login (authentication) system",
+      "t5": "Stripe payment system"
+    },
+    "links": {
+      "server": "https://github.com/abir14016/hardware-zone-server-public",
+      "client": "https://github.com/abir14016/hardware-zone-client-public",
+      "live": "https://github.com/abir14016/hardware-zone-server-public"
+    },
+    "images": {
+      "smHome": "https://i.ibb.co/fqdMYdm/sm-home.png",
+      "sm1": "https://i.ibb.co/zfJfg4p/sm-user-dashboard.png",
+      "sm2": "https://i.ibb.co/rQMmC0n/sm-reviews.png",
+      "sm3": "https://i.ibb.co/D7DQsbT/sm-admin-dashboard.png",
+      "lgHome": "https://i.ibb.co/NLwnYZ3/lg-home.png",
+      "lg1": "https://i.ibb.co/J2rbqC7/lg-user-dashboard.png",
+      "lg2": "https://i.ibb.co/rGnbHQC/lg-reviewspng.png",
+      "lg3": "https://i.ibb.co/HhN85Xh/lg-admin-dashboard.png"
+    }
+  },
+  {
+    "id": "62a5cbcada2189cd1a4c1b00",
+    "index": 1,
+    "name": "gymHero",
+    "subName": "A website for multivendor company to store gym equipment",
+    "description": {
+      "d1": "It's a complete website with backend integration(node.js) for a company that stores gym equipments.",
+      "d2": "There are some prothected routes for unauthorized user",
+      "d3": "There is my inventory route for specific user",
+      "d4": "4 ways of login (authentication) system",
+      "d5": "An user can add and delete inventory"
+    },
+    "technologies": {
+      "t1": "HTML, CSS, Bootstrap.",
+      "t2": "React as Javascript Libray.",
+      "t3": "Firebase Authentication",
+      "t4": "2 ways of login (authentication) system",
+      "t5": "React Helmet"
+    },
+    "links": {
+      "server": "https://github.com/abir14016/gym-hero-server-public",
+      "client": "https://github.com/abir14016/gym-hero-client-public",
+      "live": "https://frolicking-puppy-e1821b.netlify.app/"
+    },
+    "images": {
+      "smHome": "https://i.ibb.co/GJCZfCc/sm-home.png",
+      "sm1": "https://i.ibb.co/Yf9xhGT/sm-login.png",
+      "sm2": "https://i.ibb.co/zs8Sd0G/sm-update.png",
+      "sm3": "https://i.ibb.co/2dczs46/sm-manage-inventories.png",
+      "lgHome": "https://i.ibb.co/NLwnYZ3/lg-home.png",
+      "lg1": "https://i.ibb.co/r7ZXyxt/lg-login.png",
+      "lg2": "https://i.ibb.co/nC52fm1/lg-update.png",
+      "lg3": "https://i.ibb.co/mhjDXTw/lg-manage-inventories.png"
+    }
+  },
+  {
+    "id": "62a5cbca7e8041d62f3ba552",
+    "index": 2,
+    "name": "Pet Consultant",
+    "subName": "a website for pet consultant who wants to give service individually",
+    "description": {
+      "d1": "There are 4 ways of (login) authentication system like google, facebook, github and email.",
+      "d2": "I used JWT token to prevent unauthorized access",
+      "d3": "There are some protected routes for unauthorized users.",
+      "d4": "There is a checkout page to get the services",
+      "d5": "Anyone can come with the service of his pet"
+    },
+    "technologies": {
+      "t1": "HTML, CSS, Bootstrap.",
+      "t2": "React as Javascript Libray.",
+      "t3": "Firebase Authentication",
+      "t4": "Active Custom Link used",
+      "t5": "Netlify Deploy"
+    },
+    "links": {
+      "server": "",
+      "client": "https://github.com/abir14016/pet-consultant-public",
+      "live": "https://remarkable-cassata-77c698.netlify.app/"
+    },
+    "images": {
+      "smHome": "https://i.ibb.co/KxQjMdD/sm-home.png",
+      "sm1": "https://i.ibb.co/xg4gyLr/sm-checkout.png",
+      "sm2": "https://i.ibb.co/hFJ9JYT/sm-about-me.png",
+      "sm3": "https://i.ibb.co/DtGksPK/sm-reviews.png",
+      "lgHome": "https://i.ibb.co/NLwnYZ3/lg-home.png",
+      "lg1": "https://i.ibb.co/T8h3Nq3/lg-checkout.png",
+      "lg2": "https://i.ibb.co/wNsfPfL/lg-about-me.png",
+      "lg3": "https://i.ibb.co/rHpQbns/lg-reviews.png"
+    }
+  }
+]
