@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react"
 
 const UseProjects = () => {
-    const [Projects, setProjects] = useState([])
+    const [projects, setProjects] = useState([])
     useEffect(() => {
-        fetch("projectData.json")
+        fetch("https://calm-scrubland-98189.herokuapp.com/project")
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])
-    return [Projects, setProjects];
+    return [projects, setProjects];
 }
 
 export default UseProjects;

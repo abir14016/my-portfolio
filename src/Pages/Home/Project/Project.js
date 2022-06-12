@@ -1,9 +1,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faCodeFork, faPlay } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 const Project = ({ project }) => {
-    const { id, name, subName, description, technologies, links, images } = project;
+    const { _id, name, subName, description, technologies, links, images } = project;
+    const navigate = useNavigate();
+
+    const navigateToProjectDetail = id => {
+        navigate(`/project/${id}`);
+    }
     return (
         <div className='flex justify-center'>
             <div class="card w-96 bg-base-100 shadow-xl">
@@ -11,7 +17,7 @@ const Project = ({ project }) => {
                 <div class="card-body bg-secondary">
                     <h2 class="card-title font-extrabold text-2xl">
                         {name}
-                        <button className='btn btn-primary btn-xs'>Details</button>
+                        <button onClick={() => navigateToProjectDetail(_id)} className='btn btn-primary btn-xs'>Details</button>
                     </h2>
                     <p className='text-start font-bold'>{subName}</p>
                     <div class="card-actions justify-end">
