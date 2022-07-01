@@ -16,6 +16,8 @@ const ProjectDetail = () => {
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">{name}</h2>
                     <p>{subName}</p>
+                    <p>{project?.description?.d1}</p>
+                    <img src={images.lgHome} alt="project" />
                 </div>
             </div>
         </div>
